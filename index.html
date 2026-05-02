@@ -106,7 +106,7 @@
     <script>
         // !!! ЗАМЕНИ ЭТОТ IP НА IP СВОЕГО СЕРВЕРА !!!
         const SERVER_IP = '89.22.236.106'; 
-        const socket = new WebSocket(`ws://89.22.236.106:8000/ws`);
+        const socket = new WebSocket(`ws://${SERVER_IP}:8000/ws`);
 
         const multDisplay = document.getElementById('multiplier');
         const statusTag = document.getElementById('status-tag');
